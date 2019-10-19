@@ -37,7 +37,7 @@ public enum Operation {
 	} ;
 	
  private  String symbole;
- 
+ int test;
  
   private Operation (String symbole)
   {
