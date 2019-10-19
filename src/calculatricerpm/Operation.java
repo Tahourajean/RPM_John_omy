@@ -49,6 +49,8 @@ public enum Operation {
       return  this.symbole ;  
  }   
   
+  public int ajout;
+  
   public abstract double eval (double a, double b);
   
   
