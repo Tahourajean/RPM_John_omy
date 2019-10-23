@@ -31,7 +31,8 @@ public class MoteurRPN{
                         double resultat;
 			Double v = depile();//depiler la première operande
 			Double y = depile();//depiler la seconde operande
-			resultat = op.eval(v, y);//applique une operation sur les operandes x et y
+			resultat = op.eval(y, v);//applique une operation sur les operandes x et y
+                       
 			p.push(resultat);//empiler le resultat de l'operation dans la pile
 	}
 	
